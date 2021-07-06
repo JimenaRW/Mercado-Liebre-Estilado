@@ -4,8 +4,8 @@
 }
 /* logo */
 .home header .photo-container img.photo {
-    width: 150px;
-    margin: 35px 0 0 35px;
+    width: 100px;
+    margin: 30px 0 0 30px;
 }
 
 .home header input {
@@ -23,28 +23,32 @@
 }
 .home header p {
     margin-left: 45px;
-    margin-right: 0;
-    width: max-content;
-    font-size: var(--fontSize-discount);
 }
 
 .home header .burger-container {
     height: 60px;
 }
 
-.home header .burger-container li {
-    font-size: var(--fontSize-discount);
-}
-
 .home header .burger-container a.burger {
     display: block;
-    width: 21px;
+    width: 1rem;
     background-color: var(--colorCeleste);
     color: white;
     padding: 8px;
     border-radius: 4px;
     margin: auto;
     text-align: center;
+}
+.home header .burger-container a.burger i {
+    font-size: 1rem;
+}
+.home  header  ul  a  {  
+    display: block;
+}
+
+.home header ul a li {
+    display: inline-block;
+    padding-right: 2px;
 }
 
 /* main */
@@ -72,7 +76,6 @@ main {
 
 .home footer p {
     color: var(--colorGrisOscuro);
-    font-size: var(--fontSize-body);
     margin: 0 0 20px 0;
 }
 

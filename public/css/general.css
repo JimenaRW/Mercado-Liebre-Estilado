@@ -20,6 +20,7 @@
 
 body {
     font-family:'Roboto', sans-serif;
+    font-size: var(--fontSize-body);
 }
 
 ul {
@@ -28,11 +29,9 @@ ul {
 
 li {
     list-style: none;
-    font-size: var(--fontSize-discount);
 }
 
 a {
     text-decoration: none;
     color: black;
 }
-
